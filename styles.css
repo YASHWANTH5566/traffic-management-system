@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+.traffic-section {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+}
+
+.traffic-section h2 {
+    margin-bottom: 10px;
+}
+
+.traffic-section video {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.traffic-section p {
+    margin: 5px 0;
+}
